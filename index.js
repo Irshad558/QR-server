@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://qr-client-omgs.onrender.com/",
+    origin: "https://qr-client-omgs.onrender.com",
   })
 );
 app.use(express.json());
